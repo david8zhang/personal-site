@@ -69,7 +69,7 @@
 
 	var _routes2 = _interopRequireDefault(_routes);
 
-	var _store = __webpack_require__(296);
+	var _store = __webpack_require__(298);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29699,11 +29699,6 @@
 	        return _reactRouter.browserHistory.push('/projects');
 	    }
 	}, {
-	    text: 'Blog',
-	    onClick: function onClick() {
-	        return _reactRouter.browserHistory.push('/blog');
-	    }
-	}, {
 	    text: 'Resume',
 	    onClick: function onClick() {
 	        return _reactRouter.browserHistory.push('/resume');
@@ -29783,25 +29778,6 @@
 	                        style: { marginRight: '10px' }
 	                    },
 	                    'Cool Projects'
-	                ),
-	                _react2.default.createElement('i', {
-	                    className: 'fa fa-circle',
-	                    style: {
-	                        fontSize: '5px',
-	                        marginRight: '10px',
-	                        color: 'dodgerblue'
-	                    }
-	                }),
-	                _react2.default.createElement(
-	                    'p',
-	                    {
-	                        onClick: function onClick() {
-	                            return _reactRouter.browserHistory.push('blog');
-	                        },
-	                        className: _styles2.default.option,
-	                        style: { marginRight: '10px' }
-	                    },
-	                    'Shower Thoughts'
 	                ),
 	                _react2.default.createElement('i', {
 	                    className: 'fa fa-circle',
@@ -30514,7 +30490,7 @@
 	  value: true
 	});
 
-	var _BlogScreen = __webpack_require__(298);
+	var _BlogScreen = __webpack_require__(296);
 
 	Object.defineProperty(exports, 'BlogScreen', {
 	  enumerable: true,
@@ -30532,46 +30508,6 @@
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.store = undefined;
-
-	var _redux = __webpack_require__(194);
-
-	var _baseReducer = __webpack_require__(297);
-
-	var _baseReducer2 = _interopRequireDefault(_baseReducer);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	var createStoreWithMiddleware = (0, _redux.applyMiddleware)()(_redux.createStore);
-	var store = createStoreWithMiddleware(_baseReducer2.default);
-
-	exports.store = store;
-
-/***/ }),
-/* 297 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _redux = __webpack_require__(194);
-
-	exports.default = (0, _redux.combineReducers)({ state: function state() {
-	    return null;
-	  } });
-
-/***/ }),
-/* 298 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
 
@@ -30581,7 +30517,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _styles = __webpack_require__(299);
+	var _styles = __webpack_require__(297);
 
 	var _styles2 = _interopRequireDefault(_styles);
 
@@ -30638,13 +30574,53 @@
 	exports.default = BlogScreen;
 
 /***/ }),
-/* 299 */
+/* 297 */
 /***/ (function(module, exports) {
 
 	"use strict";
 
 	// removed by extract-text-webpack-plugin
 	module.exports = { "blog": "styles__blog___2ieve", "header": "styles__header___2HSOo" };
+
+/***/ }),
+/* 298 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.store = undefined;
+
+	var _redux = __webpack_require__(194);
+
+	var _baseReducer = __webpack_require__(299);
+
+	var _baseReducer2 = _interopRequireDefault(_baseReducer);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var createStoreWithMiddleware = (0, _redux.applyMiddleware)()(_redux.createStore);
+	var store = createStoreWithMiddleware(_baseReducer2.default);
+
+	exports.store = store;
+
+/***/ }),
+/* 299 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _redux = __webpack_require__(194);
+
+	exports.default = (0, _redux.combineReducers)({ state: function state() {
+	    return null;
+	  } });
 
 /***/ })
 /******/ ]);

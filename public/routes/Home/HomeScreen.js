@@ -11,9 +11,6 @@ const buttonOptions = [{
     text: 'Projects',
     onClick: () => browserHistory.push('/projects')
 }, {
-    text: 'Blog',
-    onClick: () => browserHistory.push('/blog')
-}, {
     text: 'Resume',
     onClick: () => browserHistory.push('/resume')
 }];
@@ -58,21 +55,6 @@ class HomeScreen extends Component {
                     style={{ marginRight: '10px' }}
                 >
                     Cool Projects
-                </p>
-                <i 
-                    className='fa fa-circle'
-                    style={{ 
-                        fontSize: '5px',
-                        marginRight: '10px',
-                        color: 'dodgerblue'
-                    }}
-                />
-                <p
-                    onClick={() => browserHistory.push('blog')}
-                    className={styles.option}
-                    style={{ marginRight: '10px' }}                    
-                >
-                    Shower Thoughts
                 </p>
                 <i 
                     className='fa fa-circle'
