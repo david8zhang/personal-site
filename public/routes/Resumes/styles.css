@@ -1,0 +1,17 @@
+.resumeScreen {
+    padding: 20px;
+    font-family: Avenir, sans-serif;
+}
+
+.imageWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumeImage {
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 2px;
+}

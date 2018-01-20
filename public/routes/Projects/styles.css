@@ -1,0 +1,43 @@
+.projects {
+    font-family: Avenir, sans-serif;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+.divider {
+    width: 100%;
+}
+
+.projectGrid {
+    display: block;
+}
+
+.project {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-color: #ddd;
+    border-style: solid;
+}
+
+.buttonLink {
+    margin: 20px;
+    border-color: black !important;
+    background-color: white !important;
+    color: black !important;
+}
+
+.buttonLink:hover {
+    background-color: #ddd !important;
+    transition: background-color, 0.2s;
+}

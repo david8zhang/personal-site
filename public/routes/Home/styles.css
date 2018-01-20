@@ -1,0 +1,110 @@
+.home {
+    font-family: Avenir;
+    background-color: black;
+    height: 100vh;
+}
+
+.navOption {
+    padding: 30px;
+    cursor: pointer;
+}
+
+.navOption:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s;
+}
+
+.navOption p {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.about {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px 20px 30px;
+}
+
+.about h1 {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.header {
+    font-size: 60px;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    background-color: #2475B0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    font-weight: bolder;
+    margin: 0px;
+    font-size: 60px;
+}
+
+.header p {
+    font-size: 15px;
+}
+
+.imageWrapper {
+    padding: 20px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.image {
+    border-radius: 50%;
+    width: 400px;
+}
+
+.divider {
+    width: 100%;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.option {
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #3498db;
+}
+
+.option:hover {
+    color: #A4D7FB;
+    transition: color 0.2s;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialIcon {
+    color: #555;
+    font-size: 50px !important;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.socialIcon:hover {
+    color: white;
+    transition: color 0.2s;
+}

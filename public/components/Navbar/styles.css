@@ -1,0 +1,70 @@
+.navbarHeader {
+	font-size: 35px;
+	color: #FFFFFF;
+	font-family: 'Avenir', 'Nunito Sans', sans-serif;
+	font-weight: bold;
+	display: inline-block;
+	cursor: pointer;
+	flex: 1;
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.navbar {
+	background: rgba(255, 255, 255, 0.2);
+	-webkit-transition: background 0.2s, padding 0.2s;
+	-moz-transition: background 0.2s, padding 0.2s;
+	transition: background 0.2s, padding 0.2s;
+	padding: 20px 10px 20px 30px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	color: #FFFFFF;
+	font-family: 'Avenir', 'Nunito Sans', sans-serif;
+	font-weight: bold;
+}
+
+.scrolled {
+	background: rgb(62, 62, 88);
+	box-shadow: 3px 3px 10px black;
+	padding: 5px 10px 5px 30px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	-webkit-transition: background 0.2s, padding 0.2s;
+	-moz-transition: background 0.2s, padding 0.2s;
+	transition: background 0.2s, padding 0.2s;
+	font-family: 'Avenir', 'Nunito Sans', sans-serif;
+	font-weight: bold;
+}
+
+.dash {
+	-webkit-transition: background 0.2s, padding 0.2s;
+	-moz-transition: background 0.2s, padding 0.2s;
+	transition: background 0.2s, padding 0.2s;
+	z-index: 1;
+	color: #FFFFFF;
+	font-family: 'Avenir', 'Nunito Sans', sans-serif;
+	font-weight: bold;
+	background: #2980b9;
+	display: flex;
+}
+
+.navbarRight {
+	float: right;
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 35px;
+}
+
+.footer {
+	background: #000;
+	padding: 20px 10px 20px 30px;
+	color: #FFFFFF;
+	font-family: 'Avenir', 'Nunito Sans', sans-serif;
+	font-weight: bold;
+}
