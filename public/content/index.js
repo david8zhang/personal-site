@@ -45,4 +45,43 @@ export const projects = [{
     `,
     tagline: 'Mobile Health App',
     stack: 'Android Studio, AWS Kinesis, DynamoDB'
+}, {
+    title: 'NodePad',
+    stack: 'ReactJS, VanillaJS, Firebase',
+    link: 'https://github.com/david8zhang/nodepad',
+    demo: 'http://nodepad-prod.herokuapp.com/',
+    tagline: 'tree-based notetaking app',
+    description: `
+        A webapp that visualizes the natural tree structure of outline-style note-taking,
+        allowing for the easy creation of graph-based concept maps. 
+    `
+}, {
+    title: 'ChatRow',
+    stack: 'ReactJS, Firebase',
+    link: 'https://github.com/david8zhang/chat-row',
+    tagline: 'survey-based chatroom',
+    description: `
+        An application that enables people to have productive discussions with their friends 
+        about custom topics on which they disagree. Final Project for CS 160 - User Interface
+        Design an Development
+    `
+}, {
+    title: 'Campgrounds',
+    stack: 'Android Studio, Websockets, NodeJS',
+    link: 'https://github.com/david8zhang/outside-hacks',
+    tagline: 'location based chatrooms',
+    description: `
+        A location-based chatroom for people to connect with strangers around them at concerts.
+        Submitted to OutsideHacks 2016
+    `
+}, {
+    title: 'Lecto',
+    stack: 'ReactJS, Firebase, WebRTC',
+    link: 'https://github.com/david8zhang/lecto',
+    demo: 'https://lecto.herokuapp.com',
+    tagline: 'live streamed student lectures & study groups',
+    description: `
+        A live streaming vidchat platform that enables the creation of study groups, live office
+        hours, and Q&A sessions.
+    `
 }];

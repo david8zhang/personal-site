@@ -22,7 +22,7 @@ class OverlayCard extends Component {
                 <h1 style={{ marginBottom: '5px', fontSize: '40px' }}>
                     {this.props.title}
                 </h1>
-                <p style={{ marginBottom: '0px' }}>
+                <p style={{ marginLeft: '5px', marginRight: '5px', marginBottom: '0px' }}>
                     <em>{this.props.tagline}</em>
                 </p>
                 <p style={{ fontSize: '10px' }}>

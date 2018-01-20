@@ -27,6 +27,17 @@ class ProjectScreen extends Component {
                     >
                         Link
                     </button>
+                    {
+                        project.demo &&
+                        <button 
+                            className={`button-primary ${styles.buttonLink}`}
+                            onClick={() => {
+                                window.location.href = project.demo;
+                            }}
+                        >
+                            Demo
+                        </button>
+                    }
                 </div>
             );
             return (

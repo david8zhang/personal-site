@@ -30120,7 +30120,7 @@
 	                ),
 	                _react2.default.createElement(
 	                    'p',
-	                    { style: { marginBottom: '0px' } },
+	                    { style: { marginLeft: '5px', marginRight: '5px', marginBottom: '0px' } },
 	                    _react2.default.createElement(
 	                        'em',
 	                        null,
@@ -30184,6 +30184,32 @@
 	    description: '\n        A mobile application that manages health and nutrition through an Amazon Echo voice\n        integration for searching nutrition facts, as well as a Striiv activity monitor module\n        for tracking daily calorie consumption v.s. burn\n    ',
 	    tagline: 'Mobile Health App',
 	    stack: 'Android Studio, AWS Kinesis, DynamoDB'
+	}, {
+	    title: 'NodePad',
+	    stack: 'ReactJS, VanillaJS, Firebase',
+	    link: 'https://github.com/david8zhang/nodepad',
+	    demo: 'http://nodepad-prod.herokuapp.com/',
+	    tagline: 'tree-based notetaking app',
+	    description: '\n        A webapp that visualizes the natural tree structure of outline-style note-taking,\n        allowing for the easy creation of graph-based concept maps. \n    '
+	}, {
+	    title: 'ChatRow',
+	    stack: 'ReactJS, Firebase',
+	    link: 'https://github.com/david8zhang/chat-row',
+	    tagline: 'survey-based chatroom',
+	    description: '\n        An application that enables people to have productive discussions with their friends \n        about custom topics on which they disagree. Final Project for CS 160 - User Interface\n        Design an Development\n    '
+	}, {
+	    title: 'Campgrounds',
+	    stack: 'Android Studio, Websockets, NodeJS',
+	    link: 'https://github.com/david8zhang/outside-hacks',
+	    tagline: 'location based chatrooms',
+	    description: '\n        A location-based chatroom for people to connect with strangers around them at concerts.\n        Submitted to OutsideHacks 2016\n    '
+	}, {
+	    title: 'Lecto',
+	    stack: 'ReactJS, Firebase, WebRTC',
+	    link: 'https://github.com/david8zhang/lecto',
+	    demo: 'https://lecto.herokuapp.com',
+	    tagline: 'live streamed student lectures & study groups',
+	    description: '\n        A live streaming vidchat platform that enables the creation of study groups, live office\n        hours, and Q&A sessions.\n    '
 	}];
 
 /***/ }),
@@ -30276,6 +30302,16 @@
 	                            }
 	                        },
 	                        'Link'
+	                    ),
+	                    project.demo && _react2.default.createElement(
+	                        'button',
+	                        {
+	                            className: 'button-primary ' + _styles2.default.buttonLink,
+	                            onClick: function onClick() {
+	                                window.location.href = project.demo;
+	                            }
+	                        },
+	                        'Demo'
 	                    )
 	                );
 	                return _react2.default.createElement(_components.OverlayCard, {
