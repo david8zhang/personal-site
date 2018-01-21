@@ -58,6 +58,7 @@ export const projects = [{
 }, {
     title: 'ChatRow',
     stack: 'ReactJS, Firebase',
+    demo: 'https://chat-row.herokuapp.com',
     link: 'https://github.com/david8zhang/chat-row',
     tagline: 'survey-based chatroom',
     description: `
