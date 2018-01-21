@@ -97,7 +97,7 @@ export const projects = [{
 }, {
     title: 'Sync',
     stack: 'ReactJS, AWS RDS',
-    demo: 'get-sync-alpha.herokuapp.com',
+    demo: 'https://get-sync-alpha.herokuapp.com',
     tagline: 'Twitch collaboration analytics (homepage)',
     description: `
         Homepage for Sync, a Twitch collaborative analytics site that aims to increase
