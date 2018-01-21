@@ -30210,6 +30210,12 @@
 	    demo: 'https://lecto.herokuapp.com',
 	    tagline: 'live streamed student lectures & study groups',
 	    description: '\n        A live streaming vidchat platform that enables the creation of study groups, live office\n        hours, and Q&A sessions.\n    '
+	}, {
+	    title: 'Outscore.IO',
+	    stack: 'ReactJS, Firebase, Java',
+	    demo: 'http://outscore.herokuapp.com/',
+	    tagline: 'Data driven esports team management',
+	    description: '\n        A tool that displays data from various websites for esports team management and stat \n        tracking, allowing managers to view all relevant scounting information on a player\n        in a single page\n    '
 	}];
 
 /***/ }),

@@ -84,4 +84,14 @@ export const projects = [{
         A live streaming vidchat platform that enables the creation of study groups, live office
         hours, and Q&A sessions.
     `
+}, {
+    title: 'Outscore.IO',
+    stack: 'ReactJS, Firebase, Java',
+    demo: 'http://outscore.herokuapp.com/',
+    tagline: 'Data driven esports team management',
+    description: `
+        A tool that displays data from various websites for esports team management and stat 
+        tracking, allowing managers to view all relevant scounting information on a player
+        in a single page
+    `
 }];
