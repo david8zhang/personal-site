@@ -94,4 +94,14 @@ export const projects = [{
         tracking, allowing managers to view all relevant scounting information on a player
         in a single page
     `
+}, {
+    title: 'Sync',
+    stack: 'ReactJS, AWS RDS',
+    demo: 'get-sync-alpha.herokuapp.com',
+    tagline: 'Twitch collaboration analytics (homepage)',
+    description: `
+        Homepage for Sync, a Twitch collaborative analytics site that aims to increase
+        subscriber base for fledgling streamers by encouraging collaborative streams
+        with larger, more popular streamers. 
+    `
 }];

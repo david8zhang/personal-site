@@ -30216,6 +30216,12 @@
 	    demo: 'http://outscore.herokuapp.com/',
 	    tagline: 'Data driven esports team management',
 	    description: '\n        A tool that displays data from various websites for esports team management and stat \n        tracking, allowing managers to view all relevant scounting information on a player\n        in a single page\n    '
+	}, {
+	    title: 'Sync',
+	    stack: 'ReactJS, AWS RDS',
+	    demo: 'get-sync-alpha.herokuapp.com',
+	    tagline: 'Twitch collaboration analytics (homepage)',
+	    description: '\n        Homepage for Sync, a Twitch collaborative analytics site that aims to increase\n        subscriber base for fledgling streamers by encouraging collaborative streams\n        with larger, more popular streamers. \n    '
 	}];
 
 /***/ }),
@@ -30299,7 +30305,7 @@
 	                        { style: { fontSize: '18px', margin: '20px', color: 'white' } },
 	                        project.description
 	                    ),
-	                    _react2.default.createElement(
+	                    project.link && _react2.default.createElement(
 	                        'button',
 	                        {
 	                            className: 'button-primary ' + _styles2.default.buttonLink,

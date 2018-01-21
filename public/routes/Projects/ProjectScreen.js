@@ -19,14 +19,17 @@ class ProjectScreen extends Component {
                     <p style={{ fontSize: '18px', margin: '20px', color: 'white' }}>
                         { project.description }
                     </p>
-                    <button 
-                        className={`button-primary ${styles.buttonLink}`}
-                        onClick={() => {
-                            window.location.href = project.link;
-                        }}
-                    >
-                        Link
-                    </button>
+                    {
+                        project.link &&
+                        <button 
+                            className={`button-primary ${styles.buttonLink}`}
+                            onClick={() => {
+                                window.location.href = project.link;
+                            }}
+                        >
+                            Link
+                        </button>
+                    }
                     {
                         project.demo &&
                         <button 
