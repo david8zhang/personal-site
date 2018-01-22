@@ -30194,6 +30194,7 @@
 	}, {
 	    title: 'ChatRow',
 	    stack: 'ReactJS, Firebase',
+	    demo: 'https://chat-row.herokuapp.com',
 	    link: 'https://github.com/david8zhang/chat-row',
 	    tagline: 'survey-based chatroom',
 	    description: '\n        An application that enables people to have productive discussions with their friends \n        about custom topics on which they disagree. Final Project for CS 160 - User Interface\n        Design an Development\n    '
@@ -30219,7 +30220,7 @@
 	}, {
 	    title: 'Sync',
 	    stack: 'ReactJS, AWS RDS',
-	    demo: 'get-sync-alpha.herokuapp.com',
+	    demo: 'https://get-sync-alpha.herokuapp.com',
 	    tagline: 'Twitch collaboration analytics (homepage)',
 	    description: '\n        Homepage for Sync, a Twitch collaborative analytics site that aims to increase\n        subscriber base for fledgling streamers by encouraging collaborative streams\n        with larger, more popular streamers. \n    '
 	}];

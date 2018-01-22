@@ -207,6 +207,11 @@
     border-style: solid;
 }
 
+.styles__project___3ln8o:hover {
+    border-color:#2475B0;
+    transition: border-color, 0.2s;
+}
+
 .styles__projectImage___1MM21 {
     height: 100%;
     width: 100%;

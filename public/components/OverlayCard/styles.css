@@ -28,6 +28,11 @@
     border-style: solid;
 }
 
+.project:hover {
+    border-color:#2475B0;
+    transition: border-color, 0.2s;
+}
+
 .projectImage {
     height: 100%;
     width: 100%;
